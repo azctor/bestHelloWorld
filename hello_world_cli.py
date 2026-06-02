@@ -72,6 +72,7 @@ HELLO_WORLDS: dict[str, str] = {
             'echo "Hello, World!\\n";',
         ]
     ),
+    "perl": 'print "Hello, World!\\n";',
     "swift": 'print("Hello, World!")',
     "kotlin": "\n".join(
         [
@@ -90,6 +91,7 @@ ALIASES: dict[str, str] = {
     "c#": "csharp",
     "golang": "go",
     "kt": "kotlin",
+    "pl": "perl",
     "rb": "ruby",
 }
 
